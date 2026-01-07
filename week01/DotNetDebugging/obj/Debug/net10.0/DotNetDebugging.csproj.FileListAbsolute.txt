@@ -1,0 +1,14 @@
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\bin\Debug\net10.0\DotNetDebugging.exe
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\bin\Debug\net10.0\DotNetDebugging.deps.json
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\bin\Debug\net10.0\DotNetDebugging.runtimeconfig.json
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\bin\Debug\net10.0\DotNetDebugging.dll
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\bin\Debug\net10.0\DotNetDebugging.pdb
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.GeneratedMSBuildEditorConfig.editorconfig
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.AssemblyInfoInputs.cache
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.AssemblyInfo.cs
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.csproj.CoreCompileInputs.cache
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.dll
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\obj\Debug\net10.0\refint\DotNetDebugging.dll
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.pdb
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\obj\Debug\net10.0\DotNetDebugging.genruntimeconfig.cache
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\DotNetDebugging\obj\Debug\net10.0\ref\DotNetDebugging.dll

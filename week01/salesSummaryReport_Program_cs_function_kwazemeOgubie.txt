@@ -1,0 +1,53 @@
+
+using System.IO;
+using System.Collections.Generic;
+using Newtonsoft.Json;
+.
+.
+.
+
+// Create a salesReportFIle.txt file in the salesTotalDir directory
+var salesReportFilePath = Path.Combine(salesTotalDir, "salesReportFile.txt");
+
+// Create a method to generate the sales report
+void GenerateSalesReport(IEnumerable<string> salesFiles, string reportFilePath)
+{
+    var reportLines = new List<string>();
+    double grandTotal = 0;
+
+    reportLines.Add("Sales Summary");
+    reportLines.Add("----------------------------");
+
+    foreach (var file in salesFiles)
+    {
+        string salesJson = File.ReadAllText(file);
+        SalesData? data = JsonConvert.DeserializeObject<SalesData>(salesJson);
+        double fileTotal = data?.Total ?? 0;
+        grandTotal += fileTotal;
+
+        reportLines.Add($"  {Path.GetFileName(file)}: ${fileTotal:N2}");
+    }
+
+    reportLines.Insert(2, $" Total Sales: ${grandTotal:N2}");
+    reportLines.Insert(3, " ");
+    reportLines.Insert(4, "Details:");
+    reportLines.Add("*******************************");
+
+// write all sales data to SalesReportFile.txt
+    File.WriteAllLines(reportFilePath, reportLines);
+}
+.
+.
+.
+var salesFiles = FindFiles(storesDirectory);
+
+var salesTotal = CalculateSalesTotal(salesFiles);
+
+// write the salesReport to the SalesReportFile.txt
+GenerateSalesReport(salesFiles, salesReportFilePath);
+.
+.
+.
+
+
+

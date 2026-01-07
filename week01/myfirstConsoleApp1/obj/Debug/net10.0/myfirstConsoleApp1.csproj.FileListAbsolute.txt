@@ -1,0 +1,14 @@
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\bin\Debug\net10.0\myfirstConsoleApp1.exe
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\bin\Debug\net10.0\myfirstConsoleApp1.deps.json
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\bin\Debug\net10.0\myfirstConsoleApp1.runtimeconfig.json
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\bin\Debug\net10.0\myfirstConsoleApp1.dll
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\bin\Debug\net10.0\myfirstConsoleApp1.pdb
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\obj\Debug\net10.0\myfirstConsoleApp1.GeneratedMSBuildEditorConfig.editorconfig
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\obj\Debug\net10.0\myfirstConsoleApp1.AssemblyInfoInputs.cache
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\obj\Debug\net10.0\myfirstConsoleApp1.AssemblyInfo.cs
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\obj\Debug\net10.0\myfirstConsoleApp1.csproj.CoreCompileInputs.cache
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\obj\Debug\net10.0\myfirstConsoleApp1.dll
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\obj\Debug\net10.0\refint\myfirstConsoleApp1.dll
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\obj\Debug\net10.0\myfirstConsoleApp1.pdb
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\obj\Debug\net10.0\myfirstConsoleApp1.genruntimeconfig.cache
+H:\Share\00share\async-pc\DESKTOP-KNPI01\Documents\Education\BYUPW\TERM1-2026\CSE325.002_dotNETSoftwareDevelopment\week01\myfirstConsoleApp1\obj\Debug\net10.0\ref\myfirstConsoleApp1.dll
