@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "H:\\Share\\00share\\async-pc\\DESKTOP-KNPI01\\Documents\\Education\\BYUPW\\TERM1-2026\\CSE325.002_dotNETSoftwareDevelopment\\week04\\ConnectFour2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5BA60CD1-5F66-4502-8EEF-9FCBBDB0FD64}|ConnectFour2.csproj|h:\\share\\00share\\async-pc\\desktop-knpi01\\documents\\education\\byupw\\term1-2026\\cse325.002_dotnetsoftwaredevelopment\\week04\\connectfour2\\components\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5BA60CD1-5F66-4502-8EEF-9FCBBDB0FD64}|ConnectFour2.csproj|solutionrelative:components\\component.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Component.razor",
+              "DocumentMoniker": "H:\\Share\\00share\\async-pc\\DESKTOP-KNPI01\\Documents\\Education\\BYUPW\\TERM1-2026\\CSE325.002_dotNETSoftwareDevelopment\\week04\\ConnectFour2\\Components\\Component.razor",
+              "RelativeDocumentMoniker": "Components\\Component.razor",
+              "ToolTip": "H:\\Share\\00share\\async-pc\\DESKTOP-KNPI01\\Documents\\Education\\BYUPW\\TERM1-2026\\CSE325.002_dotNETSoftwareDevelopment\\week04\\ConnectFour2\\Components\\Component.razor",
+              "RelativeToolTip": "Components\\Component.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T05:37:12.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
