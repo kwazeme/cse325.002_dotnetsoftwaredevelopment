@@ -27,7 +27,7 @@
         <div class="color-settings" style="display: flex; gap: 10px; margin-top: 10px;">
         <label>
             Player 1: 
-            <input type="color" @bind-Value="Player1ColorHex" @bind-Value:event="oninput" />
+            <input type="color" @bind-Value="Player1ColorHex"  @bind-Value:event="oninput" />
         </label>
         
         <label>
@@ -43,24 +43,47 @@
 
 </article>
 
-<div>
-    <div class="board">
-    @for (var i = 0; i < 42; i++)
-    {
-        <span class="container">
-            <span></span>
-        </span>
-    }
+<div class="game-layout">
+    <div class="board-container">
+        <div class="board">
+            @for (var i = 0; i < 42; i++)
+            {
+                <span class="container">
+                    <span></span>
+                </span>
+            }
+        </div>
+            @for (var i = 0; i < 42; i++)
+            {
+                <span class="@pieces[i]"></span>
+            }
     </div>
-    @for (var i = 0; i < 42; i++)
-    {
-       <span class="@pieces[i]"></span>
-    }
+
+    <section class="tracking-container">
+        <h3>Play Tracker List</h3>
+        @if (moveTracking.Count == 0)
+        {
+            <p>No Play to track yet</p>
+        }
+        else
+        {
+            <div class="tracking-list">
+                <ol>
+                    @foreach (var move in moveTracking)
+                    {
+                        <li>@move</li>
+                    }
+                </ol>
+            </div>
+        }
+    </section>
 </div>
+
 @code {
     private string[] pieces = new string[42];
     private string winnerMessage = string.Empty;
     private string errorMessage = string.Empty;
+     private List<string> moveTracking = new();
 
     private string CurrentTurn => (winnerMessage == string.Empty) ? $"Player {State.PlayerTurn}'s Turn" : "";
     private string ResetStyle => (winnerMessage == string.Empty) ? "display: none;" : "";
@@ -77,6 +100,8 @@
             var turn = State.CurrentTurn;
             var landingRow = State.PlayPiece(col);
             pieces[turn] = $"player{player} col{col} drop{landingRow}";
+        
+            moveTracking.Add($"Turn {turn + 1}: Player {player} played column {col + 1}");
         }
         catch (ArgumentException ex)
         {
@@ -93,36 +118,45 @@
     }
      // add functionality Allow the user to select the color of the game pieces.
     // TODO: Implement color selection UI and logic
-   private string Player1ColorHex
+   
+    //define Board and player colors
+    [Parameter]
+    public Color BoardColor { get; set; } = ColorTranslator.FromHtml("yellow");
+
+    [Parameter]
+    public Color Player1Color { get; set; } = ColorTranslator.FromHtml("red");
+
+    [Parameter]
+    public Color Player2Color { get; set; } = ColorTranslator.FromHtml("blue");
+
+    
+      //hex values for color inputs
+    private string Player1ColorHex
     {
         get => ColorTranslator.ToHtml(Player1Color);
-        set { if (!string.IsNullOrEmpty(value)) Player1Color = ColorTranslator.FromHtml(value); }
-    }
+        set
+        {
+            Player1Color = ColorTranslator.FromHtml(value);
+        }
+    }  
 
     private string Player2ColorHex
     {
         get => ColorTranslator.ToHtml(Player2Color);
-        set { if (!string.IsNullOrEmpty(value)) Player2Color = ColorTranslator.FromHtml(value); }
+        set
+        {
+            Player2Color = ColorTranslator.FromHtml(value);
+        }
     }
-
     private string BoardColorHex
     {
         get => ColorTranslator.ToHtml(BoardColor);
-        set { if (!string.IsNullOrEmpty(value)) BoardColor = ColorTranslator.FromHtml(value); }
+        set
+        {
+            BoardColor = ColorTranslator.FromHtml(value);
+        }
     }
-
-    //define Board and player colors
-    [Parameter]
-    public Color BoardColor { get; set; } = $"BoardColorHex".ToString() != null ? Color.Black : Color.Black;
-
-    [Parameter]
-    public Color Player1Color { get; set; } = $"Player1ColorHex".ToString() != null ? Color.Green : Color.Green;
-
-    [Parameter]
-    public Color Player2Color { get; set; } = $"Player2ColorHex".ToString() != null ? Color.Purple : Color.Purple;
-
    
-
     protected override void OnInitialized()
     {
         State.ResetBoard();
@@ -134,6 +168,8 @@
         winnerMessage = string.Empty;
         errorMessage = string.Empty;
         pieces = new string[42];
+
+        moveTracking.Clear();
     }
     
 }

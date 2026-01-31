@@ -248,3 +248,38 @@ span.container {
     transform: translateY(20.4em)
   }
 }
+
+.game-layout {
+    display: flex;
+    flex-wrap: wrap; /* Allows stacking on small screens */
+    gap: 2rem;       /* Space between board and history */
+    align-items: flex-start;
+    margin-top: 20px;
+}
+
+/* Board Column */
+.board-container {
+    flex: 1;         /* Grows to fill space */
+    min-width: 300px; /* Won't get too squished */
+    max-width: 500px; /* Keeps the board from getting giant */
+}
+
+/* History Column */
+.tracking-container {
+    flex: 0 1 250px; /* Stays a fixed-ish width but can shrink */
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    border: 1px solid #dee2e6;
+    max-height: 500px; 
+    overflow-y: auto;  
+}
+
+.tracking-list ol {
+    padding-left: 1.5rem;
+}
+
+.tracking-list li {
+    margin-bottom: 0.5rem;
+    font-family: monospace;
+}
